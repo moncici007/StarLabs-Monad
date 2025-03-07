@@ -231,7 +231,8 @@ async def faucet(
                     proxy=proxy_options,
                     viewport=viewport,
                     user_agent=user_agent,
-                    headless=False,
+                    # headless=False,
+                    
                     args=launch_args,
                     ignore_https_errors=True,
                     locale="en-US",
